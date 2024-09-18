@@ -21,8 +21,9 @@ This repository contains all supplementary results for our paper submitted to LA
 
 ### (4)	K-anonymization
 
-K-anonymity is a property of a dataset that indicates the re-identifiability of its records. A dataset is k-anonymous if quasi-identifiers for each person in the dataset are identical to at least k – 1 other people also in the dataset.
+K-anonymity is a property of a dataset that indicates the re-identifiability of its records. A dataset is k-anonymous if quasi-identifiers for each person in the dataset are identical to at least k – 1 other people also in the dataset (Google, 2015).
 
 ## Reference
+- Google (2015). Computing k-anonymity for a dataset. [online] Google Cloud. Available at: https://cloud.google.com/sensitive-data-protection/docs/compute-k-anonymity
 - Horan , C. (2021). Wasserstein Distance and Textual Similarity. Neptune.ai. https://neptune.ai/blog/wasserstein-distance-and-textual-similarity
 - Nielsen, F. (2019). On the Jensen–Shannon Symmetrization of Distances Relying on Abstract Means. Entropy, 21(5), 485. https://doi.org/10.3390/e21050485
