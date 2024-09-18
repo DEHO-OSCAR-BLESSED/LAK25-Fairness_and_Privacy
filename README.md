@@ -16,3 +16,9 @@ This repository contains all supplementary results for our paper submitted to LA
 ### (2)	Wasserstein distance (WD)
 
 ![image](https://github.com/ql909/mathematical_definitions/assets/108169831/7b64ead0-18cc-4d5c-9f23-416344aeba9a) (Horan , 2021)
+
+### (3)	Membership interference attack (MIA)
+
+### (4)	K-anonymization
+
+K-anonymity is a property of a dataset that indicates the re-identifiability of its records. A dataset is k-anonymous if quasi-identifiers for each person in the dataset are identical to at least k – 1 other people also in the dataset.
