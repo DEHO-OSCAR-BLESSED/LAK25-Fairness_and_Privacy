@@ -22,14 +22,16 @@ This repository contains all supplementary results for our paper submitted to LA
 We used the the DOMIAS， which is a density-based Membership Inference Attack (MIA) model proposed in (Van Breugel et al., 2023). This model designed to detect local overfitting in synthetic data generators. It operates by comparing the densities of real and synthetic data distributions to infer whether a specific real sample was part of the training data. If the synthetic data model overfits in certain regions, DOMIAS identifies this overfitting by computing a membership score based on the ratio of the two densities:
 
 
-  > S(x) = \frac{p_{\text{gen}}(x)}{p_{\text{real}}(x)}
+$$
+S(x) = \frac{p_{\text{gen}}(x)}{p_{\text{real}}(x)}
+$$
 
 Here:
+- \( p_{\text{gen}}(x) \) is the density of the synthetic data.
+- \( p_{\text{real}}(x) \) is the density of the real data.
 
-    >  pgen(x) is the density of the synthetic data.
-    >  preal(x) is the density of the real data.
+A higher score \( S(x) \) suggests a greater likelihood that the sample \( x \) was used during training, particularly in overfitted regions where the synthetic data mimics the real data closely.
 
-A higher score S(x)S(x) suggests a greater likelihood that the sample xx was used during training, particularly in overfitted regions where the synthetic data mimics the real data closely.
 
 ### (4)	K-anonymization
 
