@@ -27,8 +27,8 @@ S(x) = \frac{p_{\text{gen}}(x)}{p_{\text{real}}(x)}
 $$
 
 Here:
-- \( p_{\text{gen}}(x) \) is the density of the synthetic data.
-- \( p_{\text{real}}(x) \) is the density of the real data.
+pgen​(x) is the density of the synthetic data.
+preal(x) is the density of the real data.
 
 A higher score \( S(x) \) suggests a greater likelihood that the sample \( x \) was used during training, particularly in overfitted regions where the synthetic data mimics the real data closely.
 
