@@ -40,25 +40,25 @@ K-anonymity is a property of a dataset that indicates the re-identifiability of 
 ## Results
 
 ### Additional privacy evaluation results 
-![distance and similarity metrics in privacy evaluation](jsd-wd(1).png)
+![distance and similarity metrics in privacy evaluation](plots/jsd-wd(1).png)
 
 *Figure 1: distance and similarity metrics in privacy evaluation.*
 
-![re-identification risk assessment metrics in privacy evaluation](mia-kanony.png)
+![re-identification risk assessment metrics in privacy evaluation](plots/mia-kanony.png)
 
 *Figure 2: re-identification risk assessment metrics in privacy evaluation.*
 
 ### Additional fairness evaluation results 
 
-![fairness evaluation for dataset A](A_fairness_average.png)
+![fairness evaluation for dataset A](plots/A_fairness_average.png)
 
 *Figure 1: fairness evaluation for dataset A.*
 
-![fairness evaluation for dataset B](B_fairness_average.png)
+![fairness evaluation for dataset B](plots/B_fairness_average.png)
 
 *Figure 2: fairness evaluation for dataset B.*
 
-![fairness evaluation for dataset C](C_fairness_average.png)
+![fairness evaluation for dataset C](plots/C_fairness_average.png)
 
 *Figure 3: fairness evaluation for dataset C.*
 
