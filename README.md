@@ -38,6 +38,8 @@ A higher score \( S(x) \) suggests a greater likelihood that the sample \( x \) 
 K-anonymity is a property of a dataset that indicates the re-identifiability of its records. A dataset is k-anonymous if quasi-identifiers for each person in the dataset are identical to at least k – 1 other people also in the dataset (Google, 2015).
 
 ## Results
+
+### Additional privacy evaluation results 
 ![distance and similarity metrics in privacy evaluation](jsd-wd(1).png)
 
 *Figure 1: distance and similarity metrics in privacy evaluation.*
@@ -45,6 +47,20 @@ K-anonymity is a property of a dataset that indicates the re-identifiability of 
 ![re-identification risk assessment metrics in privacy evaluation](mia-kanony.png)
 
 *Figure 2: re-identification risk assessment metrics in privacy evaluation.*
+
+### Additional fairness evaluation results 
+
+![fairness evaluation for dataset A](A_fairness_average.png)
+
+*Figure 1: fairness evaluation for dataset A.*
+
+![fairness evaluation for dataset B](B_fairness_average.png)
+
+*Figure 2: fairness evaluation for dataset B.*
+
+![fairness evaluation for dataset C](C_fairness_average.png)
+
+*Figure 3: fairness evaluation for dataset C.*
 
 ## Reference
 - Google (2015). Computing k-anonymity for a dataset. [online] Google Cloud. Available at: https://cloud.google.com/sensitive-data-protection/docs/compute-k-anonymity
