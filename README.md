@@ -38,6 +38,7 @@ A higher score \( S(x) \) suggests a greater likelihood that the sample \( x \) 
 K-anonymity is a property of a dataset that indicates the re-identifiability of its records. A dataset is k-anonymous if quasi-identifiers for each person in the dataset are identical to at least k – 1 other people also in the dataset (Google, 2015).
 
 ## Results
+![distance and similarity metrics in privacy evaluation](images/my_image.png)
 
 
 ## Reference
