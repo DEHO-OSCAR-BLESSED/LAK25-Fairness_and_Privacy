@@ -40,6 +40,7 @@ K-anonymity is a property of a dataset that indicates the re-identifiability of 
 ## Results
 ![distance and similarity metrics in privacy evaluation](jsd-wd(1).png)
 
+*Figure 1: distance and similarity metrics in privacy evaluation.*
 
 ## Reference
 - Google (2015). Computing k-anonymity for a dataset. [online] Google Cloud. Available at: https://cloud.google.com/sensitive-data-protection/docs/compute-k-anonymity
